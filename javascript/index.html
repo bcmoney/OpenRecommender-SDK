@@ -1,0 +1,21 @@
+<html>
+<head><link rel="shortcut icon" href="./js.gif" />
+  <style type="text/css">
+    ol { list-style-type:none; padding:0 0 0 10px }
+	li.even { background:lightblue; }
+	li.odd { background:azure; }
+	li:hover { background:bisque; }
+	img { width:40px; vertical-align:middle; padding:2px 10px 0 10px; }
+  </style>
+</head>
+<body>
+<h1>Recommendations (XML)</h1>
+<div id="recommendXML"></div>
+<hr/>
+<h1>Recommendations (JSON)</h1>
+<div id="recommendJSON"></div>
+  <!-- NOTE: you might want to use a proper JSON library instead of 'eval' used in sample implementation (oh, but don't load from GitHub on any production server) -->
+  <script type="text/javascript" src="https://github.com/douglascrockford/JSON-js/blob/master/json2.js"></script>
+  <script type="text/javascript" src="OpenRecommender.js"></script>
+</body>
+</html>

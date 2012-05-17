@@ -1,0 +1,149 @@
+body {
+	font-family:'Century Gothic',sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	font-style:normal;
+	color:#ffffff;
+}
+/* BEGIN CONTAINER_TOP STYLING */
+#container_top {
+	background:#022135 url(../images/background.jpg) no-repeat center top;
+	width:100%;
+	height:662px;
+	display:table;
+	position:relative;
+}
+#header {
+	width:960px;
+	margin:0 auto;
+}
+h1#logo {
+	margin-top:15px;
+	background:url(../images/logo.png) no-repeat;
+	width:90px;
+	height:79px;
+}
+h1#logo a {
+	display:block;
+	padding-top:20px;
+	text-decoration:none;
+}
+#slogan {
+	text-align:justify;
+	width:595px;
+}
+#slogan h2 {
+	background:url(../images/bg-slogan.png) no-repeat;
+	font-size:22px;
+	font-weight:normal;
+	padding-top:12px;
+	padding-left:10px;
+	padding-bottom:12px;
+}
+#slogan p {
+	margin-top:-10px;
+	font-family:'Arial',sans-serif;
+	font-size:14px;
+	line-height:18px;
+	
+}
+
+#iphone {
+	position:absolute;
+	top:200px;
+	right:50px;
+}
+/* END CONTAINER_TOP STYLING */
+
+/* BEGIN FEATURED STYLING */
+#featured_wrap {
+	background:url(../images/bg-content.jpg) repeat-x;
+	width:100%;
+	height:235px;
+	overflow:hidden;
+}
+#featured_content {
+	width:960px;
+	margin:0 auto;
+	font-family:'Arial',sans-serif;
+	color:#343434;
+	font-size:12px;
+	position:relative;
+}
+#content-left {
+	margin-top:30px;
+	float:left;
+	width:605px;
+	padding-bottom:50px;
+}
+a#buybutton img {
+	position:absolute;
+	top:100px;
+	left:765px;
+}
+
+ 
+#col1 p {
+margin-top:-16px;	
+text-align:justify;
+	margin-bottom:30px;
+}
+#col2 p {
+margin-top:-16px;	
+text-align:justify;
+	margin-bottom:30px
+}
+#col1 {
+	float:left;
+	width:285px;
+	margin-right:25px;
+
+}
+#col2 {
+	float:left;
+	width:285px;
+}
+#col1 h2 {
+	padding-bottom:2px;
+	font-size:16px;
+	border-bottom:1px solid #7c7c7c;
+}
+#col2 h2 {
+	padding-bottom:2px;
+	font-size:16px;
+	border-bottom:1px solid #7c7c7c;
+}
+#content-left img {
+	clear:both;
+	float:left;
+	padding-right:9px;
+	margin-top:1px;
+}
+/* END FEATURED STYLING */
+
+/* BEGIN FOOTER STYLING */
+#footer_wrap {
+	clear:both;
+	border-top:1px solid white;
+	background:#b7b7b7 url(../images/bg-footer.jpg) no-repeat center top;
+	width:100%;
+	min-height:7 5px;
+}
+#footer_content {
+	font-style:'Arial',sans-serif;
+	font-size:11px;
+	color:#4a4a4a;
+	width:960px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#footer_content p {
+
+	width:222px;
+	margin-top:30px;
+}
+#social-links {
+	float:right;
+	margin-top:-120px;
+}
+/* END FOOTER STYLING */

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<toolkitControls:ObjectCollection
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:this="clr-namespace:XmlImageGallery;assembly=XmlImageGallery"
+    xmlns:toolkitControls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Toolkit">
+  <this:ImageData ImageUri="1.jpg" ThumbnailUri="1_thumbnail.jpg"/>
+  <this:ImageData ImageUri="2.jpg" ThumbnailUri="2_thumbnail.jpg"/>
+  <this:ImageData ImageUri="3.jpg" ThumbnailUri="3_thumbnail.jpg"/>
+  <this:ImageData ImageUri="4.jpg" ThumbnailUri="4_thumbnail.jpg"/>
+  <this:ImageData ImageUri="5.jpg" ThumbnailUri="5_thumbnail.jpg"/>
+  <this:ImageData ImageUri="6.jpg" ThumbnailUri="6_thumbnail.jpg"/>
+</toolkitControls:ObjectCollection>

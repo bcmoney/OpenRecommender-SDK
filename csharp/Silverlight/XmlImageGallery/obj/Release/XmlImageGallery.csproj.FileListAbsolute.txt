@@ -1,0 +1,4 @@
+C:\xampp\htdocs\openrecommender\client\csharp\Silverlight\XmlImageGallery\obj\Release\ResolveAssemblyReference.cache
+C:\xampp\htdocs\openrecommender\client\csharp\Silverlight\XmlImageGallery\obj\Release\App.g.cs
+C:\xampp\htdocs\openrecommender\client\csharp\Silverlight\XmlImageGallery\obj\Release\MainPage.g.cs
+C:\xampp\htdocs\openrecommender\client\csharp\Silverlight\XmlImageGallery\obj\Release\XmlImageGallery.g.resources

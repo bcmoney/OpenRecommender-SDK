@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en-US">
+  <head><link rel="shortcut icon" href="./favicon.ico" />
+    <title>OpenRecommender JAVA clients</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="http://www.java.com/js/deployJava.js"></script>
+  </head>
+  <body>    
+    <h1>OpenRecommender (JAVA)</h1>
+    <h2>Desktop Application</h2>
+    <script type="text/javascript">
+      deployJava.createWebStartLaunchButton('OpenRecommender.jnlp', '1.6.0');
+    </script>
+    <noscript>
+      <a href="OpenRecommender.jnlp">Launch</a>
+    </noscript>
+    <hr/>
+    <h2>Applet</h2>
+    <script type="text/javascript">
+        var attributes = { code:'org.OpenRecommenderApplet.class', archive:'OpenRecommender.jar',  width:500, height:300 };
+        var parameters = { jnlp_href:'OpenRecommender.jnlp' };
+        deployJava.runApplet(attributes, parameters, '1.6');
+    </script>
+    <noscript>
+      <object type="application/x-java-applet;version=1.6.0" codebase="http://java.sun.com/products/plugin/1.5.0/demos/jfc/Java2D" width="710" height="540">
+        <param name="archive" value="OpenRecommender.jar" />
+        <param name="code" value="org.openrecommender.OpenRecommenderApplet.class" />       
+        <param name="recommendations" value="recommendations.xml" />
+        <embed type="application/x-java-applet;version=1.6.0" codebase="http://java.sun.com/products/plugin/1.5.0/demos/jfc/Java2D" archive="OpenRecommender.jar" code="org.openrecommender.OpenRecommenderApplet.class" width="500" height="300">
+          <noembed>      
+            <!-- Old-school deployment, using APPLET tags -->
+            <applet code="OpenRecommenderApplet.class" codebase="/" archive="OpenRecommender.jar" width="500" height="300">
+              <param name="recommendations" value="recommendations.xml" />
+              Your browser is unable to display APPLET content...
+            </applet>
+          </noembed>      
+        </embed>
+      </object>
+    </noscript>
+    <hr/>
+    <h2>JavaFX Widget</h2>
+    ...
+  </body>
+</html>

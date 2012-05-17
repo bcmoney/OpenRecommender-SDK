@@ -1,0 +1,39 @@
+
+<div id="tab02" class="slider">
+  <div>
+    <ul>
+      <li><a HREF="images/slider1.jpg" class="fancybox"><img SRC="images/slider1.jpg" alt="" /></a></li>
+      <li><a HREF="images/slider1.jpg" class="fancybox"><img SRC="images/slider1.jpg" alt="" /></a></li>
+      <li><a HREF="images/slider1.jpg" class="fancybox"><img SRC="images/slider1.jpg" alt="" /></a></li>
+      <li><a HREF="images/slider1.jpg" class="fancybox"><img SRC="images/slider1.jpg" alt="" /></a></li>
+      <li><a HREF="images/slider1.jpg" class="fancybox"><img SRC="images/slider1.jpg" alt="" /></a></li>
+      <li><a HREF="images/slider1.jpg" class="fancybox"><img SRC="images/slider1.jpg" alt="" /></a></li>
+    </ul>
+  </div>
+<script type="text/javascript">
+  var pauseWhenImageOpen = false;
+$(function(){
+	$(".slider > div").easySlider({ numeric: true, auto:true });
+
+	$("a.fancybox").fancybox({
+		onStart		:	function() {
+			pauseWhenImageOpen = true;
+		},
+		onCancel	:	function() {
+			pauseWhenImageOpen = false; 
+		},
+		onComplete	:	function() {
+            pauseWhenImageOpen = true;
+		},
+		onCleanup	:	function() {
+            pauseWhenImageOpen = false; 
+		},
+		onClosed	:	function() {
+            pauseWhenImageOpen = false; 
+		}
+	});
+
+})(jQuery);
+
+</script>
+</div>

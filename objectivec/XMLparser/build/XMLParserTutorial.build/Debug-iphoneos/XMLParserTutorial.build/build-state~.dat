@@ -1,0 +1,540 @@
+TXMLParserTutorial
+v7
+r0
+t326388079.827477
+cCheck dependencies
+cCpResource build/Debug-iphoneos/XMLParserTutorial.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/Info.plist" XMLParserTutorial-Info.plist
+cCompileXIB "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/MainWindow.xib"
+cCompileXIB "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/RootViewController.xib"
+cProcessPCH /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-cdaqmgwhrntfhqfmbqufqjsitrln/XMLParserTutorial_Prefix.pch.gch XMLParserTutorial_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-dyagckzuuqiqdybjswwcbgnfoqqt/XMLParserTutorial_Prefix.pch.gch XMLParserTutorial_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/main.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/XMLParserTutorialAppDelegate.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/RootViewController.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/Tweet.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/Tweet.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/XMLParser.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/main.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/XMLParserTutorialAppDelegate.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/RootViewController.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/Tweet.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/Tweet.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/XMLParser.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cProcessProductPackaging "/Users/franke/Library/MobileDevice/Provisioning Profiles/10B6FD24-21BB-4F79-8459-15E2D7FA89C7.mobileprovision" "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/embedded.mobileprovision"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial.xcent"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h
+c000000004DC40E0D0000000000000192
+t1304694285
+s402
+i<UIKit/UIKit.h>
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m
+c000000004DC411EC0000000000000A70
+t1304695276
+s2672
+i"RootViewController.h"
+i"Tweet.h"
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/Tweet.h
+c000000004DC407CB000000000000016E
+t1304692683
+s366
+i<Foundation/Foundation.h>
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/Tweet.m
+c000000004DC4087800000000000000DD
+t1304692856
+s221
+i"Tweet.h"
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.h
+c000000004DC40AC300000000000001C8
+t1304693443
+s456
+i<Foundation/Foundation.h>
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m
+c000000004DC40C050000000000000632
+t1304693765
+s1586
+i"XMLParser.h"
+i"Tweet.h"
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.h
+c000000004DC407C100000000000001EC
+t1304692673
+s492
+i<UIKit/UIKit.h>
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m
+c000000004DC407C60000000000000ACA
+t1304692678
+s2762
+i"XMLParserTutorialAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/MainWindow.xib
+c000000004DC4017C000000000000601C
+t1304691068
+s24604
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/RootViewController.xib
+c000000004DC4017C000000000000445C
+t1304691068
+s17500
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/XMLParserTutorial_Prefix.pch
+c000000004DC4017C0000000000000154
+t1304691068
+s340
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app
+t2
+s0
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app.dSYM
+t2
+s0
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/Info.plist
+t1304695278
+s827
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/MainWindow.nib
+t1304695278
+s1519
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/PkgInfo
+t1304695278
+s8
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/ResourceRules.plist
+t1304695278
+s485
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/RootViewController.nib
+t1304695278
+s979
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/XMLParserTutorial
+t2
+s0
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/embedded.mobileprovision
+t1304695279
+s11741
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/RootViewController.o
+t2
+s0
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/Tweet.o
+t1304695279
+s8208
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/XMLParser.o
+t2
+s0
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/XMLParserTutorial
+t2
+s0
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/XMLParserTutorial.LinkFileList
+c000000004DC411EE00000000000003BA
+t1304695278
+s954
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/XMLParserTutorialAppDelegate.o
+t2
+s0
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/main.o
+t1304695279
+s6540
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/RootViewController.o
+t2
+s0
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/Tweet.o
+t1304695279
+s8168
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/XMLParser.o
+t2
+s0
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/XMLParserTutorial
+t2
+s0
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/XMLParserTutorial.LinkFileList
+c000000004DC411EE00000000000003BA
+t1304695278
+s954
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/XMLParserTutorialAppDelegate.o
+t2
+s0
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/main.o
+t1304695279
+s6524
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial.xcent
+t1304695279
+s440
+
+N/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/main.m
+c000000004DC4017C0000000000000171
+t1304691068
+s369
+i<UIKit/UIKit.h>
+
+N/Users/franke/Library/MobileDevice/Provisioning Profiles/10B6FD24-21BB-4F79-8459-15E2D7FA89C7.mobileprovision
+c000000004D70FDF90000000000002DDD
+t1299250681
+s11741
+
+N/var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-cdaqmgwhrntfhqfmbqufqjsitrln/XMLParserTutorial_Prefix.pch.gch
+t1304695279
+s9983704
+
+N/var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-dyagckzuuqiqdybjswwcbgnfoqqt/XMLParserTutorial_Prefix.pch.gch
+t1304695279
+s10446552
+
+NXMLParserTutorial-Info.plist
+c000000004DC4017C000000000000038D
+t1304691068
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies326388077#326388078#0(250"[BWARN]Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Kent Franks (F93MB8A3GK)', 'iPhone Developer: Kent Franks (6J93WRG8DN)' -- 'iPhone Developer: Kent Franks (F93MB8A3GK)' will be used.1(22@242"Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: Kent Franks (F93MB8A3GK)', 'iPhone Developer: Kent Franks (6J93WRG8DN)' -- 'iPhone Developer: Kent Franks (F93MB8A3GK)' will be used.326388078#18446744073709551615#0#0(1@0"0(0#1#0"31525334837231728#0"0#
+
+CCodeSign "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app"
+r0
+
+CCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/RootViewController.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326388079.633280
+e326388079.669475
+r0
+xCompileC
+xbuild/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/RootViewController.o
+x/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:9:
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h:13: error: expected specifier-qualifier-list before 'XMLParser'
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h:18: error: expected specifier-qualifier-list before 'XMLParser'
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:15: error: no declaration of property 'xmlParser' found in the interface
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m: In function '-[RootViewController viewDidLoad]':
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:24: error: 'xmlParser' undeclared (first use in this function)
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:24: error: (Each undeclared identifier is reported only once
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:24: error: for each function it appears in.)
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:24: error: 'XMLController' undeclared (first use in this function)
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m: In function '-[RootViewController tableView:numberOfRowsInSection:]':
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:50: error: 'xmlParser' undeclared (first use in this function)
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:51: warning: control reaches end of non-void function
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:67: error: 'xmlParser' undeclared (first use in this function)
+lSLF07#2@121"Compile /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388079#326388079#0(2430"In file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:9:/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h:13: error: expected specifier-qualifier-list before 'XMLParser'/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h:18: error: expected specifier-qualifier-list before 'XMLParser'/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:15: error: no declaration of property 'xmlParser' found in the interface/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m: In function '-[RootViewController viewDidLoad]':/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:24: error: 'xmlParser' undeclared (first use in this function)/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:24: error: (Each undeclared identifier is reported only once/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:24: error: for each function it appears in.)/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:24: error: 'XMLController' undeclared (first use in this function)/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m: In function '-[RootViewController tableView:numberOfRowsInSection:]':/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:50: error: 'xmlParser' undeclared (first use in this function)/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:51: warning: control reaches end of non-void function/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:67: error: 'xmlParser' undeclared (first use in this function)8(4@52"Expected specifier-qualifier-list before 'XMLParser'326388079#139#178#2(7@135"In file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388079#18446744073709551615#0#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388076#9#0#9#0#0"0(13@169"Expected specifier-qualifier-list before 'XMLParser' in /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326388079#18446744073709551615#0#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326387085#13#0#13#0#0"0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326387085#13#0#13#0#19"expected * before *0(4@52"Expected specifier-qualifier-list before 'XMLParser'326388079#317#178#2(7@135"In file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388079#18446744073709551615#0#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388076#9#0#9#0#0"0(13@169"Expected specifier-qualifier-list before 'XMLParser' in /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326388079#18446744073709551615#0#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326387085#18#0#18#0#0"0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326387085#18#0#18#0#19"expected * before *0(4@61"No declaration of property 'xmlParser' found in the interface326388079#495#187#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388076#15#0#15#0#0"0(4@51"'xmlParser' undeclared (first use in this function)326388079#846#177#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388076#24#0#24#0#43"'*' undeclared (first use in this function)0(4@55"'XMLController' undeclared (first use in this function)326388079#1357#181#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388076#24#0#24#0#43"'*' undeclared (first use in this function)0(4@51"'xmlParser' undeclared (first use in this function)326388079#1723#177#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388076#50#0#50#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function326388079#1900#168#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388076#51#0#51#0#40"control reaches end of non-void function0(4@51"'xmlParser' undeclared (first use in this function)326388079#2253#177#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388076#67#0#67#0#43"'*' undeclared (first use in this function)0(0#0#113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m8623735584#2488"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-generated-files.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-own-target-headers.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-all-target-headers.hmap" -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-project-headers.hmap" "-F/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/include" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources/armv6" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources" -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-cdaqmgwhrntfhqfmbqufqjsitrln/XMLParserTutorial_Prefix.pch -c "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m" -o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/RootViewController.o"1#
+
+CCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/Tweet.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/Tweet.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326388079.634294
+e326388079.676786
+r1
+xCompileC
+xbuild/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/Tweet.o
+x/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/Tweet.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/Tweet.m326388079#326388079#0(0"0(0#0#100"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/Tweet.m8623203744#2462"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-generated-files.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-own-target-headers.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-all-target-headers.hmap" -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-project-headers.hmap" "-F/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/include" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources/armv6" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources" -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-cdaqmgwhrntfhqfmbqufqjsitrln/XMLParserTutorial_Prefix.pch -c "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/Tweet.m" -o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/Tweet.o"0#
+
+CCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/XMLParser.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326388079.669562
+e326388079.706840
+r0
+xCompileC
+xbuild/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/XMLParser.o
+x/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:9:
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.h:18: error: expected specifier-qualifier-list before 'Tweet'
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m: In function '-[XMLParser parser:didStartElement:namespaceURI:qualifiedName:attributes:]':
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:29: error: 'currentTweet' undeclared (first use in this function)
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:29: error: (Each undeclared identifier is reported only once
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:29: error: for each function it appears in.)
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m: In function '-[XMLParser parser:didEndElement:namespaceURI:qualifiedName:]':
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:38: error: 'currentTweet' undeclared (first use in this function)
+lSLF07#2@112"Compile /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m326388079#326388079#0(1332"In file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:9:/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.h:18: error: expected specifier-qualifier-list before 'Tweet'/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m: In function '-[XMLParser parser:didStartElement:namespaceURI:qualifiedName:attributes:]':/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:29: error: 'currentTweet' undeclared (first use in this function)/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:29: error: (Each undeclared identifier is reported only once/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:29: error: for each function it appears in.)/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m: In function '-[XMLParser parser:didEndElement:namespaceURI:qualifiedName:]':/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:38: error: 'currentTweet' undeclared (first use in this function)3(4@48"Expected specifier-qualifier-list before 'Tweet'326388079#130#165#2(7@126"In file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m326388079#18446744073709551615#0#0(6@104"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m326386565#9#0#9#0#0"0(13@156"Expected specifier-qualifier-list before 'Tweet' in /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.h326388079#18446744073709551615#0#0(6@104"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.h326386243#18#0#18#0#0"0(6@104"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.h326386243#18#0#18#0#19"expected * before *0(4@54"'currentTweet' undeclared (first use in this function)326388079#491#171#0(6@104"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m326386565#29#0#29#0#43"'*' undeclared (first use in this function)0(4@54"'currentTweet' undeclared (first use in this function)326388079#1161#171#0(6@104"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m326386565#38#0#38#0#43"'*' undeclared (first use in this function)0(0#0#104"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m8611204736#2470"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-generated-files.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-own-target-headers.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-all-target-headers.hmap" -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-project-headers.hmap" "-F/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/include" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources/armv6" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources" -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-cdaqmgwhrntfhqfmbqufqjsitrln/XMLParserTutorial_Prefix.pch -c "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m" -o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/XMLParser.o"1#
+
+CCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/XMLParserTutorialAppDelegate.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326388079.573773
+e326388079.633202
+r0
+xCompileC
+xbuild/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/XMLParserTutorialAppDelegate.o
+x/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m:10:
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h:13: error: expected specifier-qualifier-list before 'XMLParser'
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h:18: error: expected specifier-qualifier-list before 'XMLParser'
+lSLF07#2@131"Compile /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m326388079#326388079#0(506"In file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m:10:/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h:13: error: expected specifier-qualifier-list before 'XMLParser'/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h:18: error: expected specifier-qualifier-list before 'XMLParser'2(4@52"Expected specifier-qualifier-list before 'XMLParser'326388079#150#178#2(7@145"In file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m326388079#18446744073709551615#0#0(6@123"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m326385478#10#0#10#0#0"0(13@169"Expected specifier-qualifier-list before 'XMLParser' in /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326388079#18446744073709551615#0#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326387085#13#0#13#0#0"0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326387085#13#0#13#0#19"expected * before *0(4@52"Expected specifier-qualifier-list before 'XMLParser'326388079#328#178#2(7@145"In file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m326388079#18446744073709551615#0#0(6@123"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m326385478#10#0#10#0#0"0(13@169"Expected specifier-qualifier-list before 'XMLParser' in /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326388079#18446744073709551615#0#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326387085#18#0#18#0#0"0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326387085#18#0#18#0#19"expected * before *0(0#0#123"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m8624465440#2508"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-generated-files.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-own-target-headers.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-all-target-headers.hmap" -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-project-headers.hmap" "-F/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/include" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources/armv6" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources" -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-cdaqmgwhrntfhqfmbqufqjsitrln/XMLParserTutorial_Prefix.pch -c "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m" -o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/XMLParserTutorialAppDelegate.o"1#
+
+CCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/main.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326388079.572628
+e326388079.634240
+r1
+xCompileC
+xbuild/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/main.o
+x/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/main.m326388079#326388079#0(0"0(0#0#91"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/main.m8623340480#2452"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-generated-files.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-own-target-headers.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-all-target-headers.hmap" -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-project-headers.hmap" "-F/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/include" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources/armv6" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources" -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-cdaqmgwhrntfhqfmbqufqjsitrln/XMLParserTutorial_Prefix.pch -c "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/main.m" -o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/RootViewController.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326388079.724838
+e326388079.763142
+r0
+xCompileC
+xbuild/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/RootViewController.o
+x/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:9:
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h:13: error: expected specifier-qualifier-list before 'XMLParser'
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h:18: error: expected specifier-qualifier-list before 'XMLParser'
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:15: error: no declaration of property 'xmlParser' found in the interface
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m: In function '-[RootViewController viewDidLoad]':
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:24: error: 'xmlParser' undeclared (first use in this function)
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:24: error: (Each undeclared identifier is reported only once
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:24: error: for each function it appears in.)
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:24: error: 'XMLController' undeclared (first use in this function)
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m: In function '-[RootViewController tableView:numberOfRowsInSection:]':
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:50: error: 'xmlParser' undeclared (first use in this function)
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:51: warning: control reaches end of non-void function
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:67: error: 'xmlParser' undeclared (first use in this function)
+lSLF07#2@121"Compile /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388079#326388079#0(2430"In file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:9:/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h:13: error: expected specifier-qualifier-list before 'XMLParser'/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h:18: error: expected specifier-qualifier-list before 'XMLParser'/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:15: error: no declaration of property 'xmlParser' found in the interface/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m: In function '-[RootViewController viewDidLoad]':/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:24: error: 'xmlParser' undeclared (first use in this function)/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:24: error: (Each undeclared identifier is reported only once/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:24: error: for each function it appears in.)/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:24: error: 'XMLController' undeclared (first use in this function)/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m: In function '-[RootViewController tableView:numberOfRowsInSection:]':/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:50: error: 'xmlParser' undeclared (first use in this function)/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:51: warning: control reaches end of non-void function/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m:67: error: 'xmlParser' undeclared (first use in this function)8(4@52"Expected specifier-qualifier-list before 'XMLParser'326388079#139#178#2(7@135"In file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388079#18446744073709551615#0#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388076#9#0#9#0#0"0(13@169"Expected specifier-qualifier-list before 'XMLParser' in /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326388079#18446744073709551615#0#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326387085#13#0#13#0#0"0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326387085#13#0#13#0#19"expected * before *0(4@52"Expected specifier-qualifier-list before 'XMLParser'326388079#317#178#2(7@135"In file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388079#18446744073709551615#0#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388076#9#0#9#0#0"0(13@169"Expected specifier-qualifier-list before 'XMLParser' in /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326388079#18446744073709551615#0#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326387085#18#0#18#0#0"0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326387085#18#0#18#0#19"expected * before *0(4@61"No declaration of property 'xmlParser' found in the interface326388079#495#187#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388076#15#0#15#0#0"0(4@51"'xmlParser' undeclared (first use in this function)326388079#846#177#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388076#24#0#24#0#43"'*' undeclared (first use in this function)0(4@55"'XMLController' undeclared (first use in this function)326388079#1357#181#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388076#24#0#24#0#43"'*' undeclared (first use in this function)0(4@51"'xmlParser' undeclared (first use in this function)326388079#1723#177#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388076#50#0#50#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function326388079#1900#168#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388076#51#0#51#0#40"control reaches end of non-void function0(4@51"'xmlParser' undeclared (first use in this function)326388079#2253#177#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m326388076#67#0#67#0#43"'*' undeclared (first use in this function)0(0#0#113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m8608573088#2488"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-generated-files.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-own-target-headers.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-all-target-headers.hmap" -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-project-headers.hmap" "-F/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/include" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources/armv7" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources" -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-dyagckzuuqiqdybjswwcbgnfoqqt/XMLParserTutorial_Prefix.pch -c "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.m" -o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/RootViewController.o"1#
+
+CCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/Tweet.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/Tweet.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326388079.760687
+e326388079.811841
+r1
+xCompileC
+xbuild/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/Tweet.o
+x/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/Tweet.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/Tweet.m326388079#326388079#0(0"0(0#0#100"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/Tweet.m8623757472#2462"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-generated-files.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-own-target-headers.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-all-target-headers.hmap" -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-project-headers.hmap" "-F/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/include" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources/armv7" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources" -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-dyagckzuuqiqdybjswwcbgnfoqqt/XMLParserTutorial_Prefix.pch -c "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/Tweet.m" -o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/Tweet.o"0#
+
+CCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/XMLParser.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326388079.763208
+e326388079.821818
+r0
+xCompileC
+xbuild/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/XMLParser.o
+x/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:9:
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.h:18: error: expected specifier-qualifier-list before 'Tweet'
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m: In function '-[XMLParser parser:didStartElement:namespaceURI:qualifiedName:attributes:]':
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:29: error: 'currentTweet' undeclared (first use in this function)
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:29: error: (Each undeclared identifier is reported only once
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:29: error: for each function it appears in.)
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m: In function '-[XMLParser parser:didEndElement:namespaceURI:qualifiedName:]':
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:38: error: 'currentTweet' undeclared (first use in this function)
+lSLF07#2@112"Compile /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m326388079#326388079#0(1332"In file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:9:/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.h:18: error: expected specifier-qualifier-list before 'Tweet'/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m: In function '-[XMLParser parser:didStartElement:namespaceURI:qualifiedName:attributes:]':/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:29: error: 'currentTweet' undeclared (first use in this function)/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:29: error: (Each undeclared identifier is reported only once/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:29: error: for each function it appears in.)/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m: In function '-[XMLParser parser:didEndElement:namespaceURI:qualifiedName:]':/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m:38: error: 'currentTweet' undeclared (first use in this function)3(4@48"Expected specifier-qualifier-list before 'Tweet'326388079#130#165#2(7@126"In file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m326388079#18446744073709551615#0#0(6@104"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m326386565#9#0#9#0#0"0(13@156"Expected specifier-qualifier-list before 'Tweet' in /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.h326388079#18446744073709551615#0#0(6@104"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.h326386243#18#0#18#0#0"0(6@104"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.h326386243#18#0#18#0#19"expected * before *0(4@54"'currentTweet' undeclared (first use in this function)326388079#491#171#0(6@104"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m326386565#29#0#29#0#43"'*' undeclared (first use in this function)0(4@54"'currentTweet' undeclared (first use in this function)326388079#1161#171#0(6@104"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m326386565#38#0#38#0#43"'*' undeclared (first use in this function)0(0#0#104"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m8624783680#2470"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-generated-files.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-own-target-headers.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-all-target-headers.hmap" -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-project-headers.hmap" "-F/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/include" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources/armv7" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources" -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-dyagckzuuqiqdybjswwcbgnfoqqt/XMLParserTutorial_Prefix.pch -c "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParser.m" -o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/XMLParser.o"1#
+
+CCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/XMLParserTutorialAppDelegate.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326388079.706923
+e326388079.760605
+r0
+xCompileC
+xbuild/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/XMLParserTutorialAppDelegate.o
+x/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m:10:
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h:13: error: expected specifier-qualifier-list before 'XMLParser'
+o/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h:18: error: expected specifier-qualifier-list before 'XMLParser'
+lSLF07#2@131"Compile /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m326388079#326388079#0(506"In file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m:10:/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h:13: error: expected specifier-qualifier-list before 'XMLParser'/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h:18: error: expected specifier-qualifier-list before 'XMLParser'2(4@52"Expected specifier-qualifier-list before 'XMLParser'326388079#150#178#2(7@145"In file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m326388079#18446744073709551615#0#0(6@123"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m326385478#10#0#10#0#0"0(13@169"Expected specifier-qualifier-list before 'XMLParser' in /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326388079#18446744073709551615#0#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326387085#13#0#13#0#0"0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326387085#13#0#13#0#19"expected * before *0(4@52"Expected specifier-qualifier-list before 'XMLParser'326388079#328#178#2(7@145"In file included from /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m326388079#18446744073709551615#0#0(6@123"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m326385478#10#0#10#0#0"0(13@169"Expected specifier-qualifier-list before 'XMLParser' in /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326388079#18446744073709551615#0#0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326387085#18#0#18#0#0"0(6@113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/RootViewController.h326387085#18#0#18#0#19"expected * before *0(0#0#123"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m8603430976#2508"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-generated-files.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-own-target-headers.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-all-target-headers.hmap" -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-project-headers.hmap" "-F/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/include" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources/armv7" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources" -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-dyagckzuuqiqdybjswwcbgnfoqqt/XMLParserTutorial_Prefix.pch -c "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/Classes/XMLParserTutorialAppDelegate.m" -o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/XMLParserTutorialAppDelegate.o"1#
+
+CCompileC build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/main.o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326388079.676867
+e326388079.724760
+r1
+xCompileC
+xbuild/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/main.o
+x/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/main.m326388079#326388079#0(0"0(0#0#91"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/main.m8610076096#2452"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-generated-files.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-own-target-headers.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-all-target-headers.hmap" -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-project-headers.hmap" "-F/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/include" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources/armv7" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources" -include /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-dyagckzuuqiqdybjswwcbgnfoqqt/XMLParserTutorial_Prefix.pch -c "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/main.m" -o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/MainWindow.xib"
+s326388078.116388
+e326388078.634685
+r1
+xCompileXIB
+x/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib326388078#326388078#0(0"0(0#0#99"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/MainWindow.xib8623830752#696"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/MainWindow.nib" "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/RootViewController.xib"
+s326388078.116829
+e326388078.523417
+r1
+xCompileXIB
+x/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib326388078#326388078#0(0"0(0#0#107"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/RootViewController.xib8611677056#712"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/RootViewController.nib" "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/RootViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/XMLParserTutorial.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s326388078.064080
+e326388078.116331
+r1
+xCpResource
+xbuild/Debug-iphoneos/XMLParserTutorial.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist326388078#326388078#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8028903794874265600#600"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app"0#
+
+CCreateUniversalBinary "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/XMLParserTutorial" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app.dSYM" "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/XMLParserTutorial"
+r0
+
+CLd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv6/XMLParserTutorial" normal armv6
+r0
+
+CLd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/Objects-normal/armv7/XMLParserTutorial" normal armv7
+r0
+
+CProcessInfoPlistFile "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/Info.plist" XMLParserTutorial-Info.plist
+s326388078.100189
+e326388078.110523
+r1
+xProcessInfoPlistFile
+x/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/Info.plist
+xXMLParserTutorial-Info.plist
+lSLF07#2@36"Process XMLParserTutorial-Info.plist326388078#326388078#0(0"0(0#0#113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/XMLParserTutorial-Info.plist8318818459212142592#794"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility XMLParserTutorial-Info.plist -genpkginfo "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/ResourceRules.plist" -o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/Info.plist"0#
+
+CProcessPCH /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-cdaqmgwhrntfhqfmbqufqjsitrln/XMLParserTutorial_Prefix.pch.gch XMLParserTutorial_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s326388078.634856
+e326388079.504391
+r1
+xProcessPCH
+x/var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-cdaqmgwhrntfhqfmbqufqjsitrln/XMLParserTutorial_Prefix.pch.gch
+xXMLParserTutorial_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile XMLParserTutorial_Prefix.pch326388078#326388079#0(0"0(0#0#113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/XMLParserTutorial_Prefix.pch8623347296#2292"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-generated-files.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-own-target-headers.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-all-target-headers.hmap" -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-project-headers.hmap" "-F/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/include" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources/armv6" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources" -c "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/XMLParserTutorial_Prefix.pch" -o /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-cdaqmgwhrntfhqfmbqufqjsitrln/XMLParserTutorial_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-dyagckzuuqiqdybjswwcbgnfoqqt/XMLParserTutorial_Prefix.pch.gch XMLParserTutorial_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s326388078.635721
+e326388079.572462
+r1
+xProcessPCH
+x/var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-dyagckzuuqiqdybjswwcbgnfoqqt/XMLParserTutorial_Prefix.pch.gch
+xXMLParserTutorial_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile XMLParserTutorial_Prefix.pch326388078#326388079#0(0"0(0#0#113"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/XMLParserTutorial_Prefix.pch8623235040#2292"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-generated-files.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-own-target-headers.hmap" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-all-target-headers.hmap" -iquote "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial-project-headers.hmap" "-F/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/include" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources/armv7" "-I/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/DerivedSources" -c "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/XMLParserTutorial_Prefix.pch" -o /var/folders/Jr/Jrh8ccLUFamcI01jaBsmgU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/XMLParserTutorial_Prefix-dyagckzuuqiqdybjswwcbgnfoqqt/XMLParserTutorial_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/franke/Library/MobileDevice/Provisioning Profiles/10B6FD24-21BB-4F79-8459-15E2D7FA89C7.mobileprovision" "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/embedded.mobileprovision"
+s326388079.821892
+e326388079.823113
+r1
+xProcessProductPackaging
+x/Users/franke/Library/MobileDevice/Provisioning Profiles/10B6FD24-21BB-4F79-8459-15E2D7FA89C7.mobileprovision
+x/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/embedded.mobileprovision
+lSLF07#2@203"ProcessProductPackaging "/Users/franke/Library/MobileDevice/Provisioning Profiles/10B6FD24-21BB-4F79-8459-15E2D7FA89C7.mobileprovision" build/Debug-iphoneos/XMLParserTutorial.app/embedded.mobileprovision326388079#326388079#0(0"0(0#0#152"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/embedded.mobileprovision8611323552#530"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/franke/Library/MobileDevice/Provisioning Profiles/10B6FD24-21BB-4F79-8459-15E2D7FA89C7.mobileprovision" -o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial.xcent"
+s326388079.823164
+e326388079.827427
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial.xcent
+lSLF07#2@205"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial.xcent326388079#326388079#0(0"0(0#0#177"/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial.xcent8609965376#558"    cd "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/XMLParserTutorial.build/Debug-iphoneos/XMLParserTutorial.build/XMLParserTutorial.xcent"0#
+
+CTouch "/Users/franke/Documents/37 - Parsing XML in an iPhone App Tutorial/XMLParserTutorial/build/Debug-iphoneos/XMLParserTutorial.app"
+r0
+

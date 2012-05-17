@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1323971529 source:c:\apps\cpp\openrecommender\src\xmlparser.cpp
+	"../include/xmlParser.h"
+	<Windows.h>
+	<memory.h>
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<widec.h>
+	<wctype.h>
+	<widec.h>
+
+1323971560 c:\apps\cpp\openrecommender\include\xmlparser.h
+	<stdlib.h>
+	<tchar.h>
+	<wchar.h>
+
+1323973381 source:c:\apps\cpp\openrecommender\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"include/xmlParser.h"
+
+1323972169 source:c:\apps\cpp\openrecommender\test.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	"include/xmlParser.h"
+

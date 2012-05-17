@@ -1,0 +1,5 @@
+C:\xampp\htdocs\openrecommender\client\csharp\Silverlight\XmlImageGallery.Web\bin\XmlImageGallery.Web.dll
+C:\xampp\htdocs\openrecommender\client\csharp\Silverlight\XmlImageGallery.Web\bin\XmlImageGallery.Web.pdb
+C:\xampp\htdocs\openrecommender\client\csharp\Silverlight\XmlImageGallery.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\xampp\htdocs\openrecommender\client\csharp\Silverlight\XmlImageGallery.Web\obj\Debug\XmlImageGallery.Web.dll
+C:\xampp\htdocs\openrecommender\client\csharp\Silverlight\XmlImageGallery.Web\obj\Debug\XmlImageGallery.Web.pdb
