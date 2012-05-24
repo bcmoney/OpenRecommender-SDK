@@ -1,6 +1,14 @@
 <?php
 
-include_once "../../lib/parser/html/simplehtmldom/simple_html_dom.php"; //'simplehtmldom' for HTML parsing
+/* 
+ * OpenRecommender.class.php
+ *   Parser for OpenRecommender project's XML/JSON schemas for recommendations.
+ *
+ * @author bcmoney
+ * @version 1.0
+ * @since PHP 5.3.8
+ */
+
 
 class OpenRecommender {
 
@@ -18,26 +26,27 @@ class OpenRecommender {
   public function __construct($url="recommendations.xml", $format="xml") {
     //load file
   	try {
-		$this->file_string = file_get_contents($url);
-	}
-	catch(Exception $ex) {
-		$this->file_string = file_get_contents_curl($url);	
-	}
-	
-    //parse contents for display
-    switch ($format) {
-	  case "xml": //XML
-        $this->file_object = new SimpleXMLElement($this->file_string);
-	    break;
-	  case "json": //JSON
-	    $this->file_object = json_decode($this->file_string);
-	    break;	  
-	  default: //HTML
-	    $html = str_get_html($this->file_string);
-		$this->file_object = $html->find('#recommendations');
+      $this->file_string = file_get_contents($url);
+    }
+    catch(Exception $ex) {
+      $this->file_string = file_get_contents_curl($url);	
+    }
+    
+      //parse contents for display
+      switch ($format) {
+      case "xml": //XML
+          $this->file_object = new SimpleXMLElement($this->file_string);
         break;
-	}
-	$this->file_format = $format;
+      case "json": //JSON
+        $this->file_object = json_decode($this->file_string);
+        break;	  
+      default: //HTML
+        include_once "../../lib/parser/html/simplehtmldom/simple_html_dom.php"; //'simplehtmldom' for HTML parsing
+        $html = str_get_html($this->file_string);
+        $this->file_object = $html->find('#recommendations');
+        break;
+    }
+    $this->file_format = $format;
   }  
   
   
@@ -70,7 +79,7 @@ class OpenRecommender {
    *   (useful for debugging)
    */
   public function display() {
-	echo $this->file_string;
+    echo $this->file_string;
   }
 
   /*
@@ -79,7 +88,7 @@ class OpenRecommender {
    *   (useful for debugging)
    */
   public function output() {
-	print_r($this->file_object);
+    print_r($this->file_object);
   }  
   
   
