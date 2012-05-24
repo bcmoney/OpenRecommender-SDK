@@ -1,19 +1,15 @@
+-------------------------------------------------------------------------------
   ____                ___                                       __       
  / __ \___  ___ ___  / _ \___ _______  __ _  __ _  ___ ___  ___/ /__ ____
 / /_/ / _ \/ -_) _ \/ , _/ -_) __/ _ \/  ' \/  ' \/ -_) _ \/ _  / -_) __/
 \____/ .__/\__/_//_/_/|_|\__/\__/\___/_/_/_/_/_/_/\__/_//_/\_,_/\__/_/   
     /_/                                                                  
 
--------------------------------------------------------------------------------
-
 OpenRecommender is a project aiming to build the world's leading open source Recommendation Engine.
-
 Each folder/directory denotes a specific programming language implementation.
 
 No guarantee of code quality is made, and these are simply provided as a basic starting point for your own implementations.
-
 Knowledge of the programming language chosen will be required for running any of the client demos. For each example though, as long as the basic pre-requisites are setup on your host machine, they should be capable of being successfully compiled, run and/or viewed as required.
-
 -------------------------------------------------------------------------------
 
 
